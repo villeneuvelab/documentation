@@ -1,10 +1,17 @@
+---
+layout: default
+title: Linux Permissions
+parent: Linux
+nav_order: 3
+---
+
 # Linux permissions on files and directories
 
 Permissions specify what a particular person may or may not do with respect to a file or directory. This system provide security at the file system level. Here is the [Ryan's tutorial on linux permissions][tutorial-permissions].
 
 A chart to remember how linux permissions work.
 
-![linux-permissions](./data/mode.png)
+![linux-permissions](../../assets/images/mode.png)
 
 ## Note on the creation of new file and directory
 

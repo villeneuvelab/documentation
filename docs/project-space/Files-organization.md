@@ -99,7 +99,7 @@ When several users work on a project, You can created a directory for each proje
 
 [Tutorial on linux permissions](./Linux-permissions), here is a chart to remind you how linux permissions work.
 
-![linux-permissions](./data/mode.png)
+![linux-permissions](../../assets/images/mode.png)
 
 #### Recommandations
 

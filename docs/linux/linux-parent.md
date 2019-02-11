@@ -14,3 +14,4 @@ permalink: /linux
 
 3. [Linux permissions](./Linux-permissions)
 
+[using-module]: https://docs.computecanada.ca/wiki/Utiliser_des_modules/en

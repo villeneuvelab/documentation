@@ -2,7 +2,7 @@
 layout: default
 title: Using SSH keys for authentication
 parent: VilleneuveLab Cluster
-nav_order: 3
+nav_order: 4
 ---
 
 ## _This step is optional_

@@ -1,6 +1,13 @@
+---
+layout: default
+title: VLPP
+parent: PET
+nav_order: 2
+---
+
 ## Setting up you environment
 
-Please, follow the instructions from [this page](./Neuroimaging-softwares)
+Please, follow the instructions from [this page](../project-space/Neuroimaging-softwares)
 
 ## Pipeline usage
 

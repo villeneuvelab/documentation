@@ -8,7 +8,7 @@ permalink: /pet
 
 ## PET
 
-1. [Hands-on tutorial](https://github.com/villeneuvelab/vlpp/wiki/PET-Tutorial)
+1. [Hands-on tutorial](./pet-tutorial)
 
 2. [Using the pipeline on `guillimin`](./VLPP-on-the-cluster)
 
