@@ -13,8 +13,8 @@
 remote_theme: pmarsceill/just-the-docs
 title: VilleneuveLab Documentation
 description: Everything documentation for the lab
-#baseurl: "/just-the-docs/" # the subpath of your site, e.g. /blog
-#url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/documentation" # the subpath of your site, e.g. /blog
+url: "https://villeneuvelab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]

@@ -55,7 +55,7 @@ The goal is to setup a `vncserver` on one of the worker node of the server, crea
 
 If you login on the server and type `vncserver` directly, a server will be create on a login node. Login nodes are not powerfull and your VNC session will be very slow, so don't do that.
 
-![vnc-schema](../../assests/images/vnc-schema.png)
+![vnc-schema](/assests/images/vnc-schema.png)
 
 ### setup `vncserver` on one of the worker node
 

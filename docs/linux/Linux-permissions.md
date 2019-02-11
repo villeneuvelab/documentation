@@ -11,7 +11,7 @@ Permissions specify what a particular person may or may not do with respect to a
 
 A chart to remember how linux permissions work.
 
-![linux-permissions](../../assets/images/mode.png)
+![linux-permissions](/assets/images/mode.png)
 
 ## Note on the creation of new file and directory
 

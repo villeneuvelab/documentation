@@ -11,7 +11,7 @@ To access the lab cluster, you need a Compute Canada account
 
 2. When you receive a confirmation email. Log again and ask an account to the Calcul Québec consortium and follow the instructions.
 
-![cc-consortium](../../assests/images/cc-consortium.png)
+![cc-consortium](/assets/images/cc-consortium.png)
 
 3. Go to [Calcul Québec Portail][calculquebec] and activate your access to guillimin in the `My account` section.
 
