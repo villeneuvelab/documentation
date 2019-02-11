@@ -1,1 +1,1 @@
-# [Click to access the wiki menu](https://github.com/villeneuvelab/documentation/wiki)
+# [Click to access the documentation](https://villeneuvelab.github.io/documentation/)
