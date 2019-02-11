@@ -1,6 +1,7 @@
 ---
 layout: default
 title: index
+has_toc: false
 ---
 
 

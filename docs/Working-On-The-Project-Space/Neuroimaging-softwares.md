@@ -1,3 +1,10 @@
+---
+layout: default
+title: Neuroimaging Softwares
+parent: Working On The Project Space
+nav_order: 1
+---
+
 # Access neuroimaging softwares
 
 When you are logged into the lab cluster, you can use the `module` function to easily access softwares already installed.

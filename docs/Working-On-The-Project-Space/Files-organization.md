@@ -1,3 +1,10 @@
+---
+layout: default
+title: Files Organization
+parent: Working On The Project Space
+nav_order: 2
+---
+
 ## Main directories
 
 - `dataset`: Sets of neuroimaging and/or behavioural data
