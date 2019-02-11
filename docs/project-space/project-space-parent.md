@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Working On The Project Space
-nav_order: 2
+nav_order: 3
 has_children: true
-permalink: /Working-On-The-Project-Space
+permalink: /working-on-the-project-space
 ---
 
 # Working on the project space 
