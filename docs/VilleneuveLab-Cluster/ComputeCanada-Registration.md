@@ -1,3 +1,10 @@
+---
+layout: default
+title: Compute Canada Registration
+parent: VilleneuveLab Cluster
+nav_order: 1
+---
+
 To access the lab cluster, you need a Compute Canada account
 
 1. Register on the [CCDB website][ccdb] of Compute Canada. Click `register` and fill the form. You'll need Compute Canada Role Identifier (CCRI) of Dr. Villeneuve : yai-974

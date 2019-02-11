@@ -1,3 +1,10 @@
+---
+layout: default
+title: Using SSH keys for authentication
+parent: VilleneuveLab Cluster
+nav_order: 3
+---
+
 ## _This step is optional_
 
 This tutorial introduces you to set up properly passwordless connection to a remote cluster

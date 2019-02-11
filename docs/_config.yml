@@ -24,7 +24,7 @@ search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Documentation on GitHub":
+  "Contribute on GitHub":
     - "//github.com/villeneuvelab/documentation"
 
 # Color scheme currently only supports "dark" or nil (default)

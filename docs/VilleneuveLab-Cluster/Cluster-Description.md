@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cluster Description
+parent: VilleneuveLab Cluster
+nav_order: 2
+---
+
 The cluster has seven Huawei nodes :
 
 - one login node

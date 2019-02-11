@@ -3,7 +3,7 @@ layout: default
 title: VilleneuveLab Cluster
 nav_order: 2
 has_children: true
-permalink: /docs/villeunevelab-cluster
+permalink: /villeunevelab-cluster
 ---
 
 # Villeneuve Lab cluster
