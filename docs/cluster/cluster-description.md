@@ -5,6 +5,8 @@ parent: VilleneuveLab Cluster
 nav_order: 2
 ---
 
+# Cluster Description
+
 The cluster has seven Huawei nodes :
 
 - one login node
@@ -17,7 +19,11 @@ More information about access through ssh : [McGill HPC Documentation][mcgillHPC
 
 ## Login node
 
-The login node is accessible at : `guillimin-p3.calculquebec.ca`
+The login node is accessible at :
+
+`<login node address> = guillimin-p3.calculquebec.ca`
+
+This login node is shared with 3 other groups
 
 ## Worker nodes
 
@@ -33,7 +39,9 @@ Specification of the worker nodes :
 
 ## Visualization login node
 
-The visualization login node is accessible at : `guillimin1.calculquebec.ca`
+The visualization login node is accessible at :
+
+`<login node address> = guillimin1.calculquebec.ca`
 
 
 [mcgillHPC-access]: http://www.hpc.mcgill.ca/index.php/starthere/81-doc-pages/85-guillimin-access

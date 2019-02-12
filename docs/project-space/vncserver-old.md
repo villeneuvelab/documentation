@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Connect to a server with a graphical desktop
-parent: Linux
-nav_order: 1
+nav_exclude: true
 ---
+
+# This page is old and kept only for archive
 
 This tutorial explain you how to connect to `guillimin` with a graphical desktop interface.
 

@@ -5,6 +5,8 @@ parent: VilleneuveLab Cluster
 nav_order: 4
 ---
 
+# Using SSH keys for authentication
+
 ## _This step is optional_
 
 This tutorial introduces you to set up properly passwordless connection to a remote cluster
@@ -13,4 +15,6 @@ SSH keys serve as a means of identifying yourself to an SSH server using public-
 
 A very good tutorial exists on the scinet wiki (Ontario cluster)
 
-Follow this link if you want to know more : [SSH keys tutorial](https://docs.scinet.utoronto.ca/index.php/SSH_keys)
+Follow this link if you want to know more : [SSH keys tutorial][scinet-ssh-keys]
+
+[scinet-ssh-keys]: https://docs.scinet.utoronto.ca/index.php/SSH_keys

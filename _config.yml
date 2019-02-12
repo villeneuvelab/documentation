@@ -10,14 +10,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 title: VilleneuveLab Documentation
 description: Everything documentation for the lab
-baseurl: "/documentation" # the subpath of your site, e.g. /blog
+baseurl: "/documentation/" # the subpath of your site, e.g. /blog
 url: "https://villeneuvelab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", ".gitignore"]
 
 # Enable or disable the site search
 search_enabled: true

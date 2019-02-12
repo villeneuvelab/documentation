@@ -5,6 +5,8 @@ parent: VilleneuveLab Cluster
 nav_order: 3
 ---
 
-3. [McGill HPC status][mcgillHPC-status]
+# McGill HPC status
+
+[link][mcgillHPC-status]
 
 [mcgillHPC-status]: http://www.hpc.mcgill.ca/index.php/guillimin-status

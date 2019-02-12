@@ -2,7 +2,7 @@
 layout: default
 title: Files Organization
 parent: Working On The Project Space
-nav_order: 2
+nav_order: 4
 ---
 
 ## Main directories
@@ -59,15 +59,11 @@ Quickly, here is an example of BIDS dataset:
 
 This directory contains softwares installed for the Villeneuve laboratory.
 
-To automatically load the default softwares, see [Here](./Neuroimaging-softwares)
+To automatically load the default softwares, see [Here](../neuroimaging-softwares)
 
 See `module avail` to print exhaustive list of softwares available on `guillimin`
 
 Using the function module : [ComputeCanada documentation][CC-modules]
-
-#### Matlab
-
-Several versions of matlab & spm are installed. Please have a look with the commands `module avail <software_name>` or `module spider <software_name>`
 
 ## users
 
@@ -97,9 +93,9 @@ When several users work on a project, You can created a directory for each proje
 - It's possible to add access to a specific user only
   - `setfacl -m u:<user-login>:rwx <your-project-directory>`
 
-[Tutorial on linux permissions](./Linux-permissions), here is a chart to remind you how linux permissions work.
+[Tutorial on linux permissions](../../linux/linux-permissions), here is a chart to remind you how linux permissions work.
 
-![linux-permissions](/assets/images/mode.png)
+![linux-permissions]({{site.baseurl}}/assets/images/mode.png)
 
 #### Recommandations
 

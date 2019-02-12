@@ -1,13 +1,13 @@
 ---
 layout: default
-title: VLPP
-parent: PET
-nav_order: 2
+title: VLPP On The Cluster
+parent: VLPP
+nav_order: 1
 ---
 
 ## Setting up you environment
 
-Please, follow the instructions from [this page](../project-space/Neuroimaging-softwares)
+Please, follow the instructions from [this page](../../project-space/neuroimaging-softwares)
 
 ## Pipeline usage
 

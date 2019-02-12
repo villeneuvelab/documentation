@@ -1,8 +1,7 @@
 ---
 layout: default
 title: PET Turorial
-parent: PET
-nav_order: 1
+nav_order: 5
 ---
 
 In this tutorial, commands will be given to you to execute on the server. These commands begin with the `$` sign. You should type what comes after the `$` sign.
@@ -89,7 +88,7 @@ The first command can take several minutes.
 
 It's important to look at your data. The more the better. Display with `freeview` the files you just created `sub-01_NAV_4D_pet_smooth.nii.gz` and/or `sub-01_NAV_3D_pet_smooth.nii.gz` to check if these steps have been done properly.
 
-[![3d smooth image with freeview](/assets/images/smoothing.jpg)](/assets/images/smoothing.jpg)
+[![3d smooth image with freeview]({{site.baseurl}}/assets/images/smoothing.jpg)]({{site.baseurl}}/assets/images/smoothing.jpg)
 
 # PET registration to the anatomical image
 
@@ -110,7 +109,7 @@ The matlab command can last several minutes.
 
 Check the quality of the registration. Open the T1w image and the registered PET image in the same viewer (`$ freeview sub-01_T1w.nii.gz rsub-01_NAV_3D_pet_smooth.nii.gz &`). Select the colormap "GE Color" for the registered PET image. Play with the opacity to check the registration quality.
 
-[![3d registration image with freeview](/assets/images/registration.jpg)](/assets/images/registration.jpg)
+[![3d registration image with freeview]({{site.baseurl}}/assets/images/registration.jpg)]({{site.baseurl}}/assets/images/registration.jpg)
 
 ### Aparc_aseg atlas
 
@@ -123,7 +122,7 @@ $ freeview rsub-01_NAV_3D_pet_smooth.nii.gz sub-01_atlas.nii.gz:colormap=lut
 
 Play with the opacity option. Information about the currently displayed data can be obtained by moving the mouse over the display window or by clicking to set the cursor. As the mouse is moved in the display window, the Cursor/Mouse sections on the bottom will display information about the voxel (or volume element) under the tip of the mouse arrow. 
 
-[![3d atlas image with freeview](/assets/images/atlas.jpg)](/assets/images/atlas.jpg)
+[![3d atlas image with freeview]({{site.baseurl}}/assets/images/atlas.jpg)]({{site.baseurl}}/assets/images/atlas.jpg)
 
 <details> 
   <summary>Which numbers correspond to the left and right cerebellum cortex ? </summary>
@@ -151,7 +150,7 @@ $ fslmeants -i rsub-01_NAV_3D_pet_smooth.nii.gz -m sub-01_cerebellum-cortex.nii.
 
 Check the cerebellum cortex mask, open it on top of your registered PET image.
 
-[![3d atlas image with freeview](/assets/images/cerebellum.jpg)](/assets/images/cerebellum.jpg)
+[![3d atlas image with freeview]({{site.baseurl}}/assets/images/cerebellum.jpg)]({{site.baseurl}}/assets/images/cerebellum.jpg)
 
 ### Scaling SUVr computation
 
