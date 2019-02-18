@@ -41,6 +41,9 @@ fi
 
 ## Loading the default modules the old way
 
+Deprecated
+{: .label .label-red }
+
 **This way is deprecated and will be deactivate when beluga comes online**
 
 Each time you connect to the server, type these lines:
