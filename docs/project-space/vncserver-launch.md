@@ -23,7 +23,7 @@ The goal is to setup a `vncserver` on the visualization node of the server, crea
 
 ## xstartup file
 
-First You should have a file `~/.vnc/xstartup` with this content :
+First, you should have a file `~/.vnc/xstartup` with this content :
 
 ```
 #!/bin/sh
@@ -49,7 +49,9 @@ Script to use on the visualization login node of the Villeneuve Lab
 Usage: vl_vncserver -t <time limit in hour(s)>
 ```
 
-### Example for a session a 3 hours
+## Example for a session a 3 hours
+
+- Start a vncserver from the visualization login node
 
 ```bash
 cbedetti@lg-3r03-n01:~ $ vl_vncserver -t 3
@@ -58,6 +60,17 @@ cbedetti@lg-3r03-n01:~ $ vl_vncserver -t 3
 > Open a new terminal on your local machine and create the ssh tunnel :
 > ssh -L 15902:lg-3r03-n01:5902 cbedetti@guillimin1.calculquebec.ca
 ```
+
+- Create the ssh tunnel (copy-paste the output ssh command in a new terminal)
+- Open TigerVNC and fill the right number
+
+![TigerVNC-img]({{site.baseurl}}/assets/images/tigervnc-launch.png)
+
+## Deactivate screensaver
+
+For stability issues, deactivate the screensaver : System > Preferences > Look and Feel > Screensaver
+
+![screensaver-img]({{site.baseurl}}/assets/images/screensaver.png)
 
 ## server check
 
