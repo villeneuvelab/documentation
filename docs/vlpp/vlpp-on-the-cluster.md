@@ -5,6 +5,9 @@ parent: VLPP
 nav_order: 1
 ---
 
+Revision coming soon
+{: .label .label-yellow }
+
 ## Setting up you environment
 
 Please, follow the instructions from [this page](../../project-space/neuroimaging-softwares)
