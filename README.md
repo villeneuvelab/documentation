@@ -1,4 +1,4 @@
-# [github pages of the documentation][doc-pages]
+# [https://villeneuvelab.github.io/documentation/](https://villeneuvelab.github.io/documentation/)
 
 # Setting up your GitHub Pages site locally with Jekyll
 
@@ -14,6 +14,5 @@
 - Start the server: `bundle exec jekyll serve`
 - Open a web browser at `http://localhost:4000/documentation/`
 
-[doc-pages]: https://villeneuvelab.github.io/documentation/
 [local-setup]: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 [ruby-install]: https://www.ruby-lang.org/en/downloads/
