@@ -2,6 +2,7 @@
 layout: default
 title: Connect to a server with a graphical desktop
 nav_exclude: true
+search_exclude: true
 ---
 
 # This page is old and kept only for archive
