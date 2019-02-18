@@ -11,11 +11,9 @@ When you are logged into the lab cluster, you can use the `module` function to e
 
 How to use `module` : [Compute Canada documentation][modules-doc]
 
-## Loading the default modules
+# Loading the default modules
 
-**Note : matlab toolboxes are now loaded through `module`. You should rename `~/matlab/startup.m` to `~/matlab/startup.m.backup` to avoid compatibility issues.**
-
-Each time you connect to the server, type these lines to load the `VilleneuveLab` module. This module contain a series of default softwares.
+Each time you connect to the server, type these lines to load the `VilleneuveLab` module. This module contain a bundle of default softwares.
 
 ```
 source /software/soft.computecanada.ca.sh
@@ -24,9 +22,17 @@ module use ${VL_QUARANTINE_DIR}/modulefiles
 module load VilleneuveLab
 ```
 
-When beluga will be online (~January 2019), you'll need to remove the first line
+Note
+{: .label }
 
-### Optional
+When beluga will be online (~2019), you'll need to remove the first line
+
+Note
+{: .label .label-red }
+
+**matlab toolboxes are now loaded through `module`. You should rename `~/matlab/startup.m` to `~/matlab/startup.m.backup` to avoid compatibility issues.**
+
+## Optional
 
 To automatically load the default softwares, it is possible to add the following lines at the end of your `~/.bashrc` file. This file is loaded each time you connect to guillimin.
 
@@ -37,9 +43,12 @@ if [ -z "$BASHRC_READ" ]; then
 fi
 ```
 
+Note
+{: .label .label-red }
+
 **Due to an issue within `/software/soft.computecanada.ca.sh` this will break the loading if you use `tmux` or the VNC server. Just comment the line `export BASHRC_READ=1`. This will be fixed when beluga comes online**
 
-## Loading the default modules the old way
+# Loading the default modules the old way
 
 Deprecated
 {: .label .label-red }
