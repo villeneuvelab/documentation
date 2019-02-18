@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PET Turorial
+title: PET Tutorial
 nav_order: 5
 ---
 
