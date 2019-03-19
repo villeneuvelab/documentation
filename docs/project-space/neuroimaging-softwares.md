@@ -48,6 +48,12 @@ Note
 
 **Due to an issue within `/software/soft.computecanada.ca.sh` this will break the loading if you use `tmux` or the VNC server. Just comment the line `export BASHRC_READ=1`. This will be fixed when beluga comes online**
 
+# Python3 environment
+
+A multi purpose python3 environment exists on the server for running scripts interactively. You can use it with `module load PythonenvVilleneuve`.
+
+It should not be used to run within jobs. For that, create your own environment to control your modules version. See [Compute Canada documentation][python-doc] for more information.
+
 # Loading the default modules the old way
 
 Deprecated
@@ -63,3 +69,4 @@ module load VilleneuveLab
 ```
 
 [modules-doc]: https://docs.computecanada.ca/wiki/Utiliser_des_modules/en
+[python-doc]: https://docs.computecanada.ca/wiki/Python
