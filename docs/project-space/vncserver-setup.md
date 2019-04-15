@@ -5,7 +5,9 @@ parent: Working On The Project Space
 nav_order: 1
 ---
 
-This tutorial explain you how to connect to `guillimin` with a graphical desktop interface.
+This tutorial explain you how to setup VNC to connect to an HPC with a graphical desktop interface. Go to the next [section](../vncserver-launch) after that
+
+This page is summary of the Compute Canada documentation about [VNC][cc-vnc].
 
 # Setup of your VNC server
 
@@ -43,10 +45,5 @@ X DISPLAY #	PROCESS ID
 
 ```
 
-# Copy the scripts from the guillimin team
-
-`cp -a /software/workshop/vnc ~/`
-
-This copy the scripts made by the guillimin team to setup a VNC sessions. This will create a new `vnc` folder in your home directory.
-
 [tigervnc]: http://tigervnc.org/
+[cc-vnc]: https://docs.computecanada.ca/wiki/VNC
