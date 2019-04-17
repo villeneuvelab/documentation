@@ -32,10 +32,11 @@ $ vl_vncserver -h
 
 Usage: vl_vncserver -t <time limit in hour(s)>
 
-Script to use during an interactive job on beluga
+Example for a 3 hours session :
     -1- Reserve a node on which running vncserver.
-        salloc -c 4 --mem 16000M --account=ctb-villens
+        salloc -c 4 --mem 16000M --time=03:10:00 --account=ctb-villens
     -2- Launch this script from the worker node
+        vl_vncserver -t 3
     -3- Create the ssh tunnel from your local computer by copy-pasting
         the ssh command
     -4- Open TigerVNC from your local computer using localhost:159XX
@@ -47,7 +48,7 @@ Script to use during an interactive job on beluga
 - Reserve a worker node
 
 ```bash
-cbedetti@beluga2:~ $ salloc -c 4 --mem 16000M --account=ctb-villens
+cbedetti@beluga2:~ $ salloc -c 4 --mem 16000M --time=03:10:00 --account=ctb-villens
 
 > salloc: Pending job allocation 156301
 > salloc: job 156301 queued and waiting for resources
@@ -77,6 +78,10 @@ cbedetti@blg8610:~ $ vl_vncserver -t 3
 For stability issues, deactivate the screensaver : System > Preferences > Look and Feel > Screensaver
 
 ![screensaver-img]({{site.baseurl}}/assets/images/screensaver.png)
+
+If you get lock out anyway, kill the screensaver from your worker node:
+
+`killall -9 .mate-screensav`
 
 ## server check
 
