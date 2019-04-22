@@ -21,6 +21,18 @@ module use ${VL_QUARANTINE_DIR}/modulefiles
 module load VilleneuveLab
 ```
 
+## News with beluga
+
+- `afni` is already installed by Compute Canada. See `module spider afni/20180404` for instructions
+- `freesurfer/6.0.0` is loaded by default by the VilleneuveLab module to be able to use `freeview` from VNC
+- `freesurfer/5.3.0` is still the default with `vl_lancer_recon-all`
+- `fsleyes` is not available by default from the VilleneuLab module. Load the python environment with `source ${VL_QUARANTINE_DIR}/python_virtualenv/fsleyes/bin/activate`, `deactivate` to unload it
+- `vl_vncserver` setup change, see `vl_vncserver -h` for instructions
+- If stuck with the lock screen with VNC, type `killall -9 .mate-screensav` from the worker node
+- `minc-toolkit` is already installed by Compute Canada. See `module spider minc-toolkit/1.9.16` for instructions.
+- python3 virtualenv for the lab available with `source ${VL_QUARANTINE_DIR}/python_virtualenv/villeneuve/bin/activate`. `deactivate` to unload the virtualenv.
+
+
 # Loading the default modules on guillimin
 
 Each time you connect to the server, type these lines to load the `VilleneuveLab` module. This module contain a bundle of default softwares.

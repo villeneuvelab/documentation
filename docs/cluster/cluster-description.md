@@ -5,6 +5,11 @@ parent: VilleneuveLab Cluster
 nav_order: 2
 ---
 
+Note
+{: .label .label-red }
+
+**This page should be updated when the Huawei nodes are connected to beluga**
+
 # Cluster Description
 
 The cluster has seven Huawei nodes :
