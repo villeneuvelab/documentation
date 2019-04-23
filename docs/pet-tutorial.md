@@ -19,10 +19,10 @@ First, to do the tutorial, you have to:
 - get the data and create a working directory (`working_dir`)
 
 ```
-$ cd /gs/scratch/<username>
+$ cd /scratch/<username>
 $ mkdir pet_tutorial
 $ cd pet_tutorial
-$ cp -R /sf1/project/yai-974-aa/projects/pet_tutorial/* .
+$ cp -R /project/ctb-villens/projects/pet_tutorial/* .
 $ mkdir working_dir
 $ cd working_dir
 ```
